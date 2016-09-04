@@ -17,7 +17,7 @@ public interface Clock
     /**
      * Advance the clock by the specified number of seconds.
      * 
-     * @param seconds
+     * @param seconds the number of seconds by which to adjust the clock.
      */
     public void tick (long seconds);
 }
