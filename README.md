@@ -45,6 +45,8 @@ on the assumption that it is required for extensions.
    
 ## Code Overview
 
+See [here](doc/index.html) for class documentation.
+
 ### src
 
 <code>Market</code>
