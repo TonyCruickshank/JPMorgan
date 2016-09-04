@@ -52,12 +52,12 @@ public class Trade
     {
         return type;
     }
-    
+
     @Override
     public String toString ()
     {
         StringBuilder builder = new StringBuilder ();
-        
+
         builder.append ("Trade:[stock: ");
         builder.append (stockIdentifier);
         builder.append (", timestamp: ");
@@ -69,7 +69,7 @@ public class Trade
         builder.append (", type: ");
         builder.append (type);
         builder.append ("]");
-        
+
         return builder.toString ();
     }
 }

@@ -3,6 +3,7 @@ package com.jpmorgan.exercise.exception;
 /**
  * Exception raised when methods are given an invalid parameter value,
  * for example a negative price.
+ * 
  * @author Tony Cruickshank
  *
  */

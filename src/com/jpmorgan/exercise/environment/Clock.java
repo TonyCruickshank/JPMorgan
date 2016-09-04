@@ -1,7 +1,7 @@
 package com.jpmorgan.exercise.environment;
 
 /**
- * Management of time within the market is managed by a clock. 
+ * Management of time within the market is managed by a clock.
  * 
  * @author Tony Cruickshank
  *

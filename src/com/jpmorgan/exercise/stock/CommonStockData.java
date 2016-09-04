@@ -3,7 +3,7 @@ package com.jpmorgan.exercise.stock;
 import com.jpmorgan.exercise.exception.InvalidParameterException;
 
 /**
- * Immutable bean to hold information on common stocks.
+ * Immutable class to hold information on common stocks.
  * 
  * @author Tony Cruickshank
  *
@@ -11,7 +11,7 @@ import com.jpmorgan.exercise.exception.InvalidParameterException;
 public class CommonStockData extends StockData
 {
 
-    public CommonStockData (String stockIdentifier, double lastDividend, double parValue)
+    public CommonStockData (final String stockIdentifier, final double lastDividend, final double parValue)
     {
         super (stockIdentifier, lastDividend, parValue);
     }

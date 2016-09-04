@@ -10,17 +10,17 @@ package com.jpmorgan.exercise.environment;
 public class ArtificialClock implements Clock
 {
     private long currentTime;
-    
+
     public ArtificialClock (final long initialTime)
     {
         currentTime = initialTime;
     }
-    
+
     public ArtificialClock ()
     {
         this (0);
     }
-    
+
     @Override
     public long getTime ()
     {

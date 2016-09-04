@@ -200,7 +200,7 @@ public class Market
      * 
      * Note that <code>double</code> is used for the calculation as for this exercise it's
      * assumed that it provides the necessary range and precision. To increase the range,
-     * the calculations below could be modified to use log (changing products to sums, 
+     * the calculations below could be modified to use log (changing products to sums,
      * and power roots to multiplications). And/or, use <code>BigDecimal</code> for the
      * calculations.
      * 
@@ -222,7 +222,7 @@ public class Market
          * to be done in two places.
          * 
          * I've selected option 2 as, generally speaking, markets can contain many stocks,
-         * and many trades, and avoiding processing the ledger multiple times is worth the 
+         * and many trades, and avoiding processing the ledger multiple times is worth the
          * trade-off of code replication.
          */
 
@@ -260,7 +260,7 @@ public class Market
             }
             gbce = Math.pow (geometricMean, 1 / (double)nTrades);
         }
-        
+
         return gbce;
     }
 }
